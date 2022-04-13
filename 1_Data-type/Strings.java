@@ -5,9 +5,10 @@ public class Strings {
         //------- CHARACTER ----
         char c1 = 'a';
         // chart c2 = 'ab'; // give error
+        char c3 = 23; // any character
         
-        char c3 = '\u00A7'; // java support unicode
-        System.out.println("character: "+c3);   // character: ?
+        char c4 = '\u00A7'; // java support unicode
+        System.out.println("character: "+c4);   // character: ?
 
 
         //------- STRING ----
