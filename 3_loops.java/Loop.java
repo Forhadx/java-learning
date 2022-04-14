@@ -1,6 +1,7 @@
 /**
     - switch
     - for
+    - forEach
     - while
     - do-while
     - breack, continue // not show below
@@ -28,8 +29,14 @@ public class Loop {
             System.out.print(i);  //01234
         }
         System.out.println();
+        
 
-
+        // ------------- forEach loop ----------
+        String[] str = {"hi","hello","bye"};
+        for(String s: str){
+            System.out.print(s+" "); // hi hello bye
+        }
+        System.out.println();
 
         // --------- while loop --------
         int j = 0;

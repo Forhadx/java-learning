@@ -6,6 +6,13 @@
 
 public class Method {
     public static void main(String[] args) {
+
+        // display method
+        Method obj = new Method();
+        obj.display();  // display method running...
+
+        //----- static method ----
+
         // void method
         show(); // method running...
 
@@ -21,10 +28,15 @@ public class Method {
     }
 
     
-    public static void show() {
-            System.out.println("method running...");
+    void display(){
+        System.out.println("display method running...");
     }
 
+
+    public static void show() {
+        System.out.println("method running...");
+    }
+    
     public static double area(int h, int w) {
         return h*w;
     }
