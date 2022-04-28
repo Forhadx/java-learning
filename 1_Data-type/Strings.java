@@ -1,4 +1,3 @@
-import javax.print.DocFlavor.STRING;
 
 public class Strings {
     public static void main(String[] args) {
@@ -24,5 +23,10 @@ public class Strings {
         System.out.println(x+z);    // 1010
         System.out.println(x+y);    // 1015
         System.out.println(x+7+y);  // 10715
+
+        // make string into array
+        String address = "Dhaka"; 
+        char[] chArr = address.toCharArray();
+
     }
 }
