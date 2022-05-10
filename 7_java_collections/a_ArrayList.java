@@ -79,5 +79,7 @@ public class a_ArrayList {
         ArrayList<Float> f= new ArrayList<>();
         f.add(23.23f);
 
+        int a = arr.indexOf(2);
+        System.out.println(a);  // 0
     }
 }
