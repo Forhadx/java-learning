@@ -1,3 +1,4 @@
+import java.util.concurrent.CountDownLatch;
 
 public class Strings {
     public static void main(String[] args) {
@@ -27,6 +28,11 @@ public class Strings {
         // make string into array
         String address = "Dhaka"; 
         char[] chArr = address.toCharArray();
+
+
+        char[] ch = {'a','b','c'};
+        String chStr = String.valueOf(ch);
+        System.out.println(chStr);  //abc
 
 
     }
