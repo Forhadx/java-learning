@@ -27,8 +27,14 @@ public class Number {
         double doubleVal = 2.33d;   // use d same as f
 
 
+        // -- float to int
+        float x = 2.234f;
+        System.out.println((int)x);
 
-        //***  MORE TYPE:  BigDecimal
+        // floor & ceil
+        x = 2.6f;
+        System.out.println(Math.floor(x));
+        System.out.println(Math.ceil(x));
 
     }
 }
