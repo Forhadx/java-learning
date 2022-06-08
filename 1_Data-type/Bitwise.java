@@ -22,5 +22,8 @@ public class Bitwise {
         // left shitf 
         System.out.println(a<<2); // 60 = 0011 0110
 
+        int n = 10;
+        System.out.println(Integer.bitCount(n)); // 2
+
     }    
 }

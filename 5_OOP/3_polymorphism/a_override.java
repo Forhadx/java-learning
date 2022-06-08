@@ -19,7 +19,7 @@ class Animal {
     }
   }
 
-public class b_override {
+public class a_override {
     public static void main(String[] args) {
         Dog dog = new Dog();
 
