@@ -27,6 +27,7 @@ public class Strings {
         // make string into array
         String address = "Dhaka"; 
         char[] chArr = address.toCharArray();
+		System.out.println(str1.charAt(1));  //h
 
 
         char[] ch = {'a','b','c'};

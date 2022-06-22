@@ -29,12 +29,12 @@ public class Number {
 
         // -- float to int
         float x = 2.234f;
-        System.out.println((int)x);
+        System.out.println((int)x); //2
 
         // floor & ceil
         x = 2.6f;
-        System.out.println(Math.floor(x));
-        System.out.println(Math.ceil(x));
+        System.out.println(Math.floor(x)); // 2.0
+        System.out.println(Math.ceil(x)); // 3.0
 
     }
 }

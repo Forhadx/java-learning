@@ -13,6 +13,8 @@ public class i_map{
         System.out.println(student.get(2)); // mia
         System.out.println(student.get(5)); // null
 
+        System.out.println(student); // {1=rahim, 2=mia, 3=ket2}
+
         for(Integer key: student.keySet()){
             System.out.println("key: "+key+" value: "+student.get(key));
             /*
