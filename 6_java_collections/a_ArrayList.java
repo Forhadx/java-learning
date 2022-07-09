@@ -20,10 +20,6 @@ import java.util.ArrayList;
 
 public class a_ArrayList {
     public static void main(String[] args) {
-        // ArrayList<Integer> arr = new ArrayList<>();
-        // ArrayList<Character> ch = new ArrayList<>();
-        // ArrayList<Double> d = new ArrayList<>();
-        // ArrayList<Float> f= new ArrayList<>();
 
         ArrayList<String> str = new ArrayList<>();
 

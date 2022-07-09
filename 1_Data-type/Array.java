@@ -6,6 +6,7 @@ public class Array {
         
         int[] arr1 = {1,2,3};
         System.out.println(arr1[1]); // 2
+        System.out.println("Size: "+arr1.length);
 
         
         int[] arr2 = new int[5];

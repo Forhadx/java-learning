@@ -12,6 +12,7 @@ class Cat implements AnimalEat {
     }
 }
 
+// multilevel inheritance
 class Horses implements AnimalEat, AnimanTravel{
     public void eat(){
         System.out.println("Horses eat!");

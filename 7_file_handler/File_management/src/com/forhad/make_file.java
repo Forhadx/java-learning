@@ -1,4 +1,4 @@
-package com.forhad;
+ package com.forhad;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
